@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/hackmod/ethereum-ethash"
+	"github.com/Dassus/ethash"
 
 	"github.com/sammy007/open-ethereum-pool/util"
 )
