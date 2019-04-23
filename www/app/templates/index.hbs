@@ -3,10 +3,10 @@
     <div class="row">
       <div class="col-md-5">
         <h1 style="font-size: 24px">
-          <strong>Open Ethereum Pool</strong>
+          <strong>Solidum Pool</strong>
         </h1>
-        <strong>Min. payout threshold: {{config.PayoutThreshold}}</strong>, Payouts run twice per day.<br/>
-        <span class="label label-success">PROP</span> Stable and profitable pool with regular payouts.
+        <strong>{{t "home.min_payout_threshold"}}: {{config.PayoutThreshold}}</strong> / {{t "home.payouts_run" interval=config.PayoutInterval}}<br/>
+        <span class="label label-success">PROP</span> {{t "home.payout_scheme_detail"}}
       </div>
       <div class="col-md-3 stats">
         <div><i class="fa fa-users"></i> Miners Online: <span id="poolHashrate">{{format-number stats.model.minersTotal}}</span></div>
